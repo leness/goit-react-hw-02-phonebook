@@ -42,7 +42,7 @@ class ContactForm extends Component{
           </label>
           <label htmlFor={ this.numberInputId}>number
            <input
-                            type='tel'
+                            type='number'
                             name='number'
                             id={this.numberInputId}
                             value={this.state.number}
